@@ -78,16 +78,37 @@ blockquote {
   padding: 5px 30px;
   background: #eee;
 }
+.menu {
+  width: 100%;
+  position: relative;
+  margin: 0px auto 35px;
+  text-align: center;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0pt;
+    li a {
+      text-align: center;
+      padding: 8px;
+      text-decoration: none;
+    }
+    li a:hover {
+      font-weight: bold;
+    }
+  }
+}
 .logo {
   position: relative;
   margin: 0 auto 35px;
   text-align: center;
-  animation-duration: 0.7s;
-  animation-fill-mode: both;
-  animation-name: bounce;
-  -webkit-animation-duration: 0.7s;
-  -webkit-animation-fill-mode: both;
-  -webkit-animation-name: bounce;
+  // animation-duration: 0.7s;
+  // animation-fill-mode: both;
+  // animation-name: bounce;
+  // -webkit-animation-duration: 0.7s;
+  // -webkit-animation-fill-mode: both;
+  // -webkit-animation-name: bounce;
   a {
     background: #ddd url("logo_wrapper.png");
     color: #000;
@@ -333,6 +354,19 @@ article {
 section {
   max-width: 500px;
   margin: 0 auto 50px auto;
+  h1.title {
+    line-height: 1.4em;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .divider {
+    background: #ddd;
+    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(#ccc),to(rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
+    background: linear-gradient(to right,rgba(255,255,255,0),#ccc,rgba(255,255,255,0));
+    height: 1px;
+    margin: 2em 0;
+  }
   ul {
     list-style: none;
     margin: 0;

@@ -1,16 +1,47 @@
 <aside class="logo">
 
-	{% if page.url == '/index.html' or page.url == '/' %}
-		{% assign link = '/about' %}
-		{% assign prompt = 'About the Author' %}
-	{% else %}
-		{% assign link = '/' %}
-		{% assign prompt = 'Back to Index' %}
-	{% endif %}
+	{% assign link = '/' %}
+	{% assign prompt = 'Back to Index' %}
 
 	<a href="{{ link | prepend: site.baseurl | prepend: site.url }}">
 		<img src="{{ site.logo_url }}" class="logo-avatar">
 	</a>
 	<span class="logo-prompt code">{{ prompt }}</span>
+</aside>
+
+<aside class="menu">
+
+	<ul>
+		{% if page.url != '/about' %}
+			<li> <a href="/about"> About </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> About </a> </li>
+		{% endif %}
+		{% if page.url != '/researches' %}
+			<li> <a href="/researches"> Researches </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> Researches </a> </li>
+		{% endif %}
+		{% if page.url != '/projects' %}
+			<li> <a href="/projects"> Projects </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> Projects </a> </li>
+		{% endif %}
+		{% if page.url != '/talks' %}
+			<li> <a href="/talks"> Talks </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> Talks </a> </li>
+		{% endif %}
+		{% if page.url != '/blog' %}
+			<li> <a href="/blog"> Blog </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> Blog </a> </li>
+		{% endif %}
+		{% if page.url != '/contact' %}
+			<li> <a href="/contact"> Contact </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> Contact </a> </li>
+		{% endif %}
+	</ul>
 
 </aside>

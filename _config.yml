@@ -1,14 +1,14 @@
 # Site Info
-title:              "The Plain"
-description:        "A minimalist Jekyll theme"
-author_name:        "Heiswayi Nrird" # change this to your name
-logo_url:           https://avatars0.githubusercontent.com/u/13794983?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+title:              "The Plain Academic"
+description:        "My academic site"
+author_name:        "The Plain Academic" # change this to your name
+logo_url:           https://avatars3.githubusercontent.com/u/17532418?s=460&v=4 # Get it from GitHub API: https://api.github.com/users/<username>
 
 # Site Settings
-url:                https://heiswayi.github.io # main url
-baseurl:            /the-plain
+url:                https://brenov.github.io # main url
+baseurl:            /the-plain-academic
 permalink:          /:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:           America/Recife # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
 
 # Site Build
@@ -24,7 +24,16 @@ include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
 plugins:
   - jekyll-sitemap
-
+collections:
+  researches:
+    output: true
+    permalink: /researches/:name
+  projects:
+    output: true
+    permalink: /projects/:name
+  talks:
+    output: true
+    permalink: /talks/:name
 
 
 defaults:
@@ -41,5 +50,20 @@ defaults:
   -
     scope:
       type:         "posts"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "researches"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "projects"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "talks"
     values:
       layout:       "post"
