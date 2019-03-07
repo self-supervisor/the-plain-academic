@@ -10,7 +10,8 @@ layout: default
 
 	<div class="divider"></div>
 
-	{% for post in site.researches %}
+	{% assign sorted = site.researches | sort:"updated" | reverse %}
+	{% for post in sorted %}
 		{% unless post.next %}
 			<h3 class="code">{{ post.date | date: '%Y' }}</h3>
 		{% else %}
@@ -33,7 +34,5 @@ layout: default
 		</ul>
 
 	{% endfor %}
-
-	Work in progress.
 
 </section>

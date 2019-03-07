@@ -10,7 +10,8 @@ layout: default
 
 	<div class="divider"></div>
 
-	{% for post in site.talks %}
+	{% assign sorted = site.talks | sort:"updated" | reverse %}
+	{% for post in sorted %}
 		{% unless post.next %}
 			<h3 class="code">{{ post.date | date: '%Y' }}</h3>
 		{% else %}
