@@ -10,6 +10,8 @@
 
 ![SCREENSHOT](img/screenshot-ii.png)
 
+> NOTE: My cat is cute.
+
 ### On GitHub
 
 GitHub - for your user account pages or repository gh-pages - only supports a limited set of themes.
