@@ -1,30 +1,12 @@
-# The Plain
+# The Plain Academic
 
-> The Plain is a minimalist Jekyll theme, ideally designed for your personal blog use. This Jekyll theme provides a minimum distraction so you can focus on writing that matters to you and your readers. This theme is originally inspired from [Leonard Lamprecht's _leo_ theme](https://github.com/leo/leo.github.io).
+WORK IN PROGRESS!
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg) ![VERSION](https://img.shields.io/badge/current_version-4.0-green.svg) ![TRAVIS-CI](https://travis-ci.org/heiswayi/the-plain.svg?branch=master)
+[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg)
 
-- **Demo:** https://heiswayi.github.io/the-plain/
+- **Demo:** https://brenov.github.io/the-plain-academic/
 
-![SCREENSHOT](https://i.imgur.com/FITKN1H.png)
-
-## Usage
-
-### On an unlimited Jekyll host
-
-> **NOTE** This does NOT work on GitHub, see the next section.
-
-Put this in your *Gemfile*:
-
-	gem 'the-plain'
-
-and run `bundle install` to install the plugin.
-
-Add this to your sites *_config.yml* file:
-
-	theme: the-plain
-
-Then copy some of the settings from this repo's *_config.yml* file to your own, and modify them.
+![SCREENSHOT](img/screenshot.png)
 
 ### On GitHub
 
