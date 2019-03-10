@@ -1,12 +1,14 @@
 # The Plain Academic
 
-WORK IN PROGRESS!
+> The Plain Academic is a minimalist Jekyll theme, ideally designed for your academic site. This theme is a modified version of the [The Plain](https://github.com/heiswayi/the-plain).
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg)
 
 - **Demo:** https://brenov.github.io/the-plain-academic/
 
-![SCREENSHOT](img/screenshot.png)
+![SCREENSHOT](img/screenshot-i.png)
+
+![SCREENSHOT](img/screenshot-ii.png)
 
 ### On GitHub
 
@@ -33,9 +35,10 @@ Now copy some of the settings from this repo's *_config.yml* file to your own, a
 
 ## Authors
 
-- [**Heiswayi Nrird**](https://heiswayi.nrird.com)
+- [**Breno Viana**](https://brenov.github.io/);
+- [**Heiswayi Nrird**](https://heiswayi.nrird.com) (the author of [The Plain](https://github.com/heiswayi/the-plain)).
 
-See also the list of [contributors](https://github.com/heiswayi/the-plain/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/brenov/the-plain-academic/graphs/contributors) who participated in the this project.
 
 ## License
 
