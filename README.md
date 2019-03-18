@@ -44,4 +44,4 @@ See also the list of [contributors](https://github.com/brenov/the-plain-academic
 
 ## License
 
-[MIT](LICENSE)
+This project is licensed under MIT license - see the [MIT](LICENSE) file for details.
