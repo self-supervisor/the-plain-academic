@@ -25,7 +25,6 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "scr
 plugins:
   - jekyll-sitemap
 
-
 defaults:
   -
     scope:

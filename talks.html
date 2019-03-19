@@ -1,29 +1,17 @@
 ---
 layout: default
+title: Talks
 ---
 
 <section>
 
-Hello.
-
-This is my academic website. Here I post my academic activities (my researches and talks), some of my projects and a blog where I publish more detailed posts.
-
-<div class="divider"></div>
-
-</section>
-
-<section>
-
 	<div class="center">
-		<h1 class="title">Recent Activites</h1>
+		<h1 class="title">Talks</h1>
 	</div>
 
 	<div class="divider"></div>
 
-  {% assign icount = 0 %}
-  {% assign max_count = 5 %}
-
-	{% assign sorted = (site.posts | sort: date) | reverse %}
+	{% assign sorted = (site.posts | where: "type", "talk" | sort: date) | reverse %}
 	{% for post in sorted %}
 		{% unless post.next %}
 			<h3 class="code">{{ post.date | date: '%Y' }}</h3>
@@ -35,19 +23,17 @@ This is my academic website. Here I post my academic activities (my researches a
 			{% endif %}
 		{% endunless %}
 
-    {% if icount < max_count %}
 		<ul>
 			<li>
-        <div class="post-date code">
-          <span style="text-transform: capitalize;">{{ post.type }}</span>
-        </div>
+				<div class="post-date code">
+					<span>{{ post.date | date: "%b %d" }}</span>
+				</div>
 				<div class="title">
 					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
 				</div>
 			</li>
 		</ul>
-    {% assign icount = icount | plus:1 %}
-    {% endif %}
+
 	{% endfor %}
 
 </section>

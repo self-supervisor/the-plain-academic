@@ -1,5 +1,6 @@
 ---
 title: Lorem Ipsum
+type: blog
 updated: 2015-09-06 15:56
 ---
 
