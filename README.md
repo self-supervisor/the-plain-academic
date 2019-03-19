@@ -6,11 +6,21 @@
 
 - **Demo:** https://brenov.github.io/the-plain-academic/
 
-![SCREENSHOT](img/screenshot-i.png)
+![SCREENSHOT](img/screenshot01.png)
 
-![SCREENSHOT](img/screenshot-ii.png)
+![SCREENSHOT](img/screenshot02.png)
 
-> NOTE: My cat is cute.
+![SCREENSHOT](img/screenshot03.png)
+
+![SCREENSHOT](img/screenshot04.png)
+
+![SCREENSHOT](img/screenshot05.png)
+
+![SCREENSHOT](img/screenshot06.png)
+
+![SCREENSHOT](img/screenshot07.png)
+
+![SCREENSHOT](img/screenshot08.png)
 
 ### On GitHub
 
