@@ -1,6 +1,6 @@
 ---
 title: Lorem Ipsum
-type: talk
+type: projects
 date: 2015-09-06
 ---
 

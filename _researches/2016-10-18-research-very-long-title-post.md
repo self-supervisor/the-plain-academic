@@ -1,6 +1,6 @@
 ---
 title: For Example of very Long Title Would Be Typography Elements in One
-type: talk
+type: researches
 date: 2016-10-18
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Download this Theme
-type: project
+type: projects
 date: 2015-09-09
 ---
 

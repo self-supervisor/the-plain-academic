@@ -1,6 +1,6 @@
 ---
 title: Download this Theme
-type: talk
+type: talks
 date: 2015-09-09
 ---
 

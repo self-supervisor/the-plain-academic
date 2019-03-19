@@ -18,34 +18,25 @@ This will be your Home page.
 
 	<div class="divider"></div>
 
-  {% assign icount = 0 %}
-  {% assign max_count = 5 %}
-
-	{% assign sorted = (site.posts | sort: date) | reverse %}
-	{% for post in sorted %}
+	{% assign sorted = ((site.documents | sort: type) | sort: date) | reverse %}
+	{% for post in sorted limit:5 %}
 		{% unless post.next %}
-			<h3 class="code">{{ post.date | date: '%Y' }}</h3>
+			<h3 class="code" style="text-transform: capitalize;">{{ post.type }}</h3>
 		{% else %}
-			{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-			{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-			{% if year != nyear %}
-				<h3 class="code">{{ post.date | date: '%Y' }}</h3>
+			{% capture type %}{{ post.type }}{% endcapture %}
+			{% capture ntype %}{{ post.next.type }}{% endcapture %}
+			{% if type != ntype %}
+				<h3 class="code" style="text-transform: capitalize;">{{ post.type }}</h3>
 			{% endif %}
 		{% endunless %}
 
-    {% if icount < max_count %}
 		<ul>
 			<li>
-        <div class="post-date code">
-          <span style="text-transform: capitalize;">{{ post.type }}</span>
-        </div>
 				<div class="title">
 					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
 				</div>
 			</li>
 		</ul>
-    {% assign icount = icount | plus:1 %}
-    {% endif %}
 	{% endfor %}
 
 </section>

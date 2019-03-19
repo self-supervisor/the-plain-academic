@@ -24,6 +24,16 @@ include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
 plugins:
   - jekyll-sitemap
+collections:
+  researches:
+    output: true
+    permalink: /researches/:name
+  projects:
+    output: true
+    permalink: /projects/:name
+  talks:
+    output: true
+    permalink: /talks/:name
 
 defaults:
   -
@@ -39,5 +49,20 @@ defaults:
   -
     scope:
       type:         "posts"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "researches"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "projects"
+    values:
+      layout:       "post"
+  -
+    scope:
+      type:         "talks"
     values:
       layout:       "post"
