@@ -1,7 +1,7 @@
 ---
 title: Lorem Ipsum
 type: project
-updated: 2015-09-06 15:56
+date: 2015-09-06
 ---
 
 ### The standard Lorem Ipsum passage, used since the 1500s
