@@ -55,7 +55,7 @@ defaults:
     scope:
       type:         "researches"
     values:
-      layout:       "post"
+      layout:       "research-post"
   -
     scope:
       type:         "projects"

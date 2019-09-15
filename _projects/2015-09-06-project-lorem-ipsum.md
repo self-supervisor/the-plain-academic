@@ -2,6 +2,8 @@
 title: Lorem Ipsum
 type: projects
 date: 2015-09-06
+imageurl: /assets/preview-mycat.png
+authors: Someone
 ---
 
 ### The standard Lorem Ipsum passage, used since the 1500s

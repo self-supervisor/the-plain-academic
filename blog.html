@@ -11,7 +11,7 @@ title: Blog
 
 	<div class="divider"></div>
 
-	{% assign sorted = (site.posts | sort: date) | reverse %}
+	{% assign sorted = (site.blog | sort: date) | reverse %}
 	{% for post in sorted %}
 		{% unless post.next %}
 			<h3 class="code">{{ post.date | date: '%Y' }}</h3>
@@ -29,7 +29,10 @@ title: Blog
 					<span>{{ post.date | date: "%b %d" }}</span>
 				</div>
 				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+						<img src="{{ post.imageurl }}" alt="" style="width: 100%;">
+						{{ post.title }}
+					</a>
 				</div>
 			</li>
 		</ul>
