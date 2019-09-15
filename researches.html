@@ -29,7 +29,10 @@ title: Researches
 					<span>{{ post.date | date: "%b %d" }}</span>
 				</div>
 				<div class="title">
-					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
+						<img src="{{ post.imageurl }}" alt="" style="width: 100%;">
+						({{ post.status }}) {{ post.title }} - {{ post.authors }}
+					</a>
 				</div>
 			</li>
 		</ul>
