@@ -6,21 +6,21 @@
 
 - **Demo:** https://brenov.github.io/the-plain-academic/
 
-![SCREENSHOT](img/screenshot01.png)
+![SCREENSHOT](img/img1.png)
 
-![SCREENSHOT](img/screenshot02.png)
+![SCREENSHOT](img/img2.png)
 
-![SCREENSHOT](img/screenshot03.png)
+![SCREENSHOT](img/img3.png)
 
-![SCREENSHOT](img/screenshot04.png)
+![SCREENSHOT](img/img4.png)
 
-![SCREENSHOT](img/screenshot05.png)
+![SCREENSHOT](img/img5.png)
 
-![SCREENSHOT](img/screenshot06.png)
+![SCREENSHOT](img/img6.png)
 
-![SCREENSHOT](img/screenshot07.png)
+![SCREENSHOT](img/img7.png)
 
-![SCREENSHOT](img/screenshot08.png)
+![SCREENSHOT](img/img8.png)
 
 ### On GitHub
 
