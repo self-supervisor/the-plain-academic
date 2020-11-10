@@ -2,7 +2,7 @@
 title: Efficient Generalised Spherical CNNs
 type: projects
 date: 2020-09-01
-imageurl: /self-supervisor.github.io/assets/egscnn.png
+imageurl: /assets/egscnn.png
 authors: Augustine Mavor-Parker
 ---
 
