@@ -5,8 +5,8 @@ author_name:        "Augustine Mavor-Parker" # change this to your name
 logo_url:           https://avatars3.githubusercontent.com/u/74271685?s=460&u=cbe74fc1658da28b450c2ed581a029e260b170d9&v=4 # Get it from GitHub API: https://api.github.com/users/<username>
 
 # Site Settings
-url:                https://brenov.github.io # main url
-baseurl:            /the-plain-academic
+url:                https://self-supervisor.github.io # main url
+baseurl:            /self-supervisor
 permalink:          /:title # Post permalink
 timezone:           America/Recife # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
