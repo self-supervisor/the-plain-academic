@@ -1,12 +1,12 @@
 # Site Info
-title:              "Self-Supervisor"
-description:        "Self-Supervisor"
+title:              "Augustine Mavor-Parker"
+description:        "My academic site"
 author_name:        "Augustine Mavor-Parker" # change this to your name
-logo_url:           /the-plain-academic/assets/graduation.jpg # Get it from GitHub API: https://api.github.com/users/<username>
+logo_url:           https://avatars2.githubusercontent.com/u/61146858?s=460&u=3954483d855519d521843aa4152f47a495db4cab&v=4 # Get it from GitHub API: https://api.github.com/users/<username>
 
 # Site Settings
-url:                https://self-supervisor.github.io # main url
-baseurl:            /self-supervisor
+url:                https://brenov.github.io # main url
+baseurl:            /the-plain-academic
 permalink:          /:title # Post permalink
 timezone:           America/Recife # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
