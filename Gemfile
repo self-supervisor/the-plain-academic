@@ -6,3 +6,6 @@ end
 gem 'html-proofer'
 gem 'tzinfo'
 gem 'tzinfo-data'
+gem 'jekyll-remote-theme'
+gem 'bundler'
+gem 'kramdown-parser-gfm'

@@ -14,13 +14,6 @@ and talks), some of my projects and a blog where I publish more detailed posts.
 </section>
 
 <section>
-
-	<div class="center">
-		<h1 class="title">Recent Activites</h1>
-	</div>
-
-	<div class="divider"></div>
-
 	{% assign sorted = ((site.documents | sort: date) | reverse) %}
 	{% assign recent_activities = "" | split: "/" %}
 	{% for post in sorted limit:5 %}

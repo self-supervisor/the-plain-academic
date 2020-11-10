@@ -25,18 +25,9 @@ exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "scr
 plugins:
   - jekyll-sitemap
 collections:
-  researches:
-    output: true
-    permalink: /researches/:name
   projects:
     output: true
     permalink: /projects/:name
-  talks:
-    output: true
-    permalink: /talks/:name
-  blog:
-    output: true
-    permalink: /blog/:name
 
 defaults:
   -
@@ -56,21 +47,6 @@ defaults:
       layout:       "post"
   -
     scope:
-      type:         "researches"
-    values:
-      layout:       "research-post"
-  -
-    scope:
       type:         "projects"
-    values:
-      layout:       "post"
-  -
-    scope:
-      type:         "talks"
-    values:
-      layout:       "post"
-  -
-    scope:
-      type:         "blog"
     values:
       layout:       "post"
