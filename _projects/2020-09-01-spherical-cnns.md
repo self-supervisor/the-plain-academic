@@ -5,6 +5,7 @@ date: 2020-09-01
 imageurl: /assets/egscnn.png
 authors: Augustine Mavor-Parker
 ---
+![EGSCNN figure](https://raw.githubusercontent.com/self-supervisor/self-supervisor.github.io/master/assets/egscnn.png)
 We introduce a general theoretical framework for spherical CNNs along with substantial improvements to computational cost.
 
 Paper is here: https://arxiv.org/abs/2010.11661
