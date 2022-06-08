@@ -1,5 +1,5 @@
 ---
-title: Efficient Generalised Spherical CNNs, *ICLR 2021 Under Review*, Oliver J. Cobb, Christopher G. R. Wallis, Augustine Mavor-Parker, Augustin Marignier, Matthewhew A. Price, Mayeul d'Avezac, Jason D. McEwen
+title: Efficient Generalised Spherical CNNs, *ICLR 2021*, Oliver J. Cobb, Christopher G. R. Wallis, Augustine Mavor-Parker, Augustin Marignier, Matthewhew A. Price, Mayeul d'Avezac, Jason D. McEwen
 type: projects
 date: 2020-09-01
 imageurl: /assets/egscnn.png
