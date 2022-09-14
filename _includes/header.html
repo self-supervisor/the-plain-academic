@@ -26,11 +26,11 @@
 		{% else %}
 			<li style="font-weight:bold;"> <a> Projects </a> </li>
 		{% endif %}
-		{% if page.url != '/talks' %}
-			{% assign link = '/talks' %}
-			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Talks </a> </li>
+		{% if page.url != '/students' %}
+			{% assign link = '/students' %}
+			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Students </a> </li>
 		{% else %}
-			<li style="font-weight:bold;"> <a> Talks </a> </li>
+			<li style="font-weight:bold;"> <a> Students </a> </li>
 		{% endif %}
 	</ul>
 	<ul class="bottom-menu">

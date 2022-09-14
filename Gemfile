@@ -10,3 +10,5 @@ gem 'jekyll-remote-theme'
 gem 'bundler'
 gem 'kramdown-parser-gfm'
 gem 'jekyll-seo-tag'
+
+gem "webrick", "~> 1.7"
