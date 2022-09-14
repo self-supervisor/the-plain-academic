@@ -1,5 +1,5 @@
 ---
-title: Scattering Networks on the Sphere for Scalable and Rotationally Equivariant Spherical CNNs, *ICLR 2022*, Jason D. McEwen, Christopher G. R. Wallis, Augustine Mavor-Parker
+title: ICLR 2022, Scattering Networks on the Sphere for Scalable and Rotationally Equivariant Spherical CNNs, Jason D. McEwen, Christopher G. R. Wallis, Augustine Mavor-Parker
 type: projects
 date: 2022-01-24
 imageurl: /assets/cosmo_sphere.png
