@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-I hold an MSci degree in physics from UCL. During my undergraduate degree, I received a Royal Astronomical Society 
+I hold a degree in physics from UCL. During my undergraduate degree, I received a Royal Astronomical Society 
 research bursary to apply machine learning to cosmology at the **Mullard Space Science Laboratory** with Prof. Tom Kitching.
 Additionally, I worked as a **bioinformatics** intern for **Illumina**, where I developed deep learning approaches for genomic analysis.
 In my final year I worked with Prof. Ofer Lahav, again applying deep learning to cosmology. I have also previously worked 
