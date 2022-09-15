@@ -8,4 +8,4 @@ authors: Augustine Mavor-Parker
 ![EGSCNN figure](https://raw.githubusercontent.com/self-supervisor/self-supervisor.github.io/master/assets/cosmo_sphere.png)
 Scattering Networks to Scale Spherical CNNs.
 
-Paper is here: https://arxiv.org/abs/2102.02828
+Paper is here: [https://arxiv.org/abs/2102.02828](https://arxiv.org/abs/2102.02828)
