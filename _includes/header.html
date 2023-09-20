@@ -15,30 +15,24 @@
 
 	<ul class="top-menu">
 		{% if page.url != '/about' %}
-			{% assign link = '/about' %}
-			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> About </a> </li>
+		{% assign link = '/about' %}
+		<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> About </a> </li>
 		{% else %}
-			<li style="font-weight:bold;"> <a> About </a> </li>
-		{% endif %}
-		{% if page.url != '/projects' %}
-			{% assign link = '/projects' %}
-			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Projects </a> </li>
-		{% else %}
-			<li style="font-weight:bold;"> <a> Projects </a> </li>
+		<li style="font-weight:bold;"> <a> About </a> </li>
 		{% endif %}
 		{% if page.url != '/students' %}
-			{% assign link = '/students' %}
-			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Students </a> </li>
+		{% assign link = '/students' %}
+		<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Students </a> </li>
 		{% else %}
-			<li style="font-weight:bold;"> <a> Students </a> </li>
+		<li style="font-weight:bold;"> <a> Students </a> </li>
 		{% endif %}
 	</ul>
 	<ul class="bottom-menu">
 		{% if page.url != '/contact' %}
-			{% assign link = '/contact' %}
-			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Contact </a> </li>
+		{% assign link = '/contact' %}
+		<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Contact </a> </li>
 		{% else %}
-			<li style="font-weight:bold;"> <a> Contact </a> </li>
+		<li style="font-weight:bold;"> <a> Contact </a> </li>
 		{% endif %}
 	</ul>
 
