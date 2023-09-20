@@ -4,12 +4,11 @@ layout: default
 
 <section>
 
-My name is Augustine Mavor-Parker. I am a PhD student at the University College London Centre for Artificial Intelligence, supervised
-by Lewis Griffin and Caswell Barry. My research is concerned with building more sample
-efficient reinforcement learning algorithms with inspiration from theoretical neuroscience. I also do geometric deep learning. See the <a href="https://self-supervisor.github.io/about">about</a>
-page for a full bio and the <a href="https://self-supervisor.github.io/projects">projects</a> page for my recent work.
-
-<div class="divider"></div>
+	My name is Augustine Mavor-Parker, see the <a href="/about">about</a> page for more information about me.
+	My research can be found on <a href="https://scholar.google.com/citations?user=J7XkuPwAAAAJ&hl=en">Google
+		Scholar</a>
+	My twitter is @mavorparker
+	<div class="divider"></div>
 
 </section>
 
@@ -17,24 +16,24 @@ page for a full bio and the <a href="https://self-supervisor.github.io/projects"
 	{% assign sorted = ((site.documents | sort: date) | reverse) %}
 	{% assign recent_activities = "" | split: "/" %}
 	{% for post in sorted limit:5 %}
-		{% assign recent_activities = recent_activities | push: post %}
+	{% assign recent_activities = recent_activities | push: post %}
 	{% endfor %}
 	{% assign recent_activities = (recent_activities | group_by: "type") %}
 	{% for group in recent_activities %}
-		{% assign anitem = group.items | first %}
-		<h3 class="code" style="text-transform: capitalize;">{{ anitem.type }}</h3>
-		{% for item in group.items %}
-			<ul>
-				<li>
-					<div class="title">
-						<a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
-							<img src="{{ item.imageurl }}" alt="" style="width: 100%;">
-							{{ item.title }}
-						</a>
-					</div>
-				</li>
-			</ul>
-  {% endfor %}
-	  {% endfor %}
+	{% assign anitem = group.items | first %}
+	<h3 class="code" style="text-transform: capitalize;">{{ anitem.type }}</h3>
+	{% for item in group.items %}
+	<ul>
+		<li>
+			<div class="title">
+				<a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
+					<img src="{{ item.imageurl }}" alt="" style="width: 100%;">
+					{{ item.title }}
+				</a>
+			</div>
+		</li>
+	</ul>
+	{% endfor %}
+	{% endfor %}
 
 </section>
